@@ -1,0 +1,13 @@
+name: aerial
+version: 0.1.0
+
+authors:
+  - TobiasGSmollett <landofscala@gmail.com>
+
+targets:
+  aerial:
+    main: src/aerial.cr
+
+crystal: 0.25.0
+
+license: MIT

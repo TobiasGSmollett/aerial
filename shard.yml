@@ -11,3 +11,7 @@ targets:
 crystal: 0.25.0
 
 license: MIT
+
+dependencies:
+  radix:
+    github: luislavena/radix

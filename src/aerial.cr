@@ -1,6 +1,9 @@
 require "./aerial/*"
 
-# TODO: Write documentation for `Aerial`
 module Aerial
-  # TODO: Put your code here
+  def self.run(host = "0.0.0.0", port = 8080)
+    server = HTTP::Server.new(Aerial::ServerHandler::INSTANCE)
+    server.bind_tcp "0.0.0.0", 8080
+    server.listen
+  end
 end
